@@ -1,0 +1,41 @@
+name: Task
+description: A concrete piece of work with a clear outcome.
+title: "task: "
+labels: ["task"]
+body:
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What does "done" look like?
+      placeholder: Clear outcome statement.
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is included and what is explicitly out?
+      placeholder: Included... Out...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps
+      description: Checklist of steps.
+      placeholder: |
+        - [ ] Step 1
+        - [ ] Step 2
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Links, context, constraints.
+    validations:
+      required: false
