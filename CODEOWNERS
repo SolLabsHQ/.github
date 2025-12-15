@@ -1,0 +1,6 @@
+# Default owner for everything
+* @jmcnulty25
+
+# Optionally, make ops changes extra explicit
+/ops/ @jmcnulty25
+/.github/ @jmcnulty25

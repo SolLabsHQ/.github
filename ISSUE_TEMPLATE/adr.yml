@@ -1,0 +1,47 @@
+name: ADR Proposal
+description: Propose an architecture decision for review and record.
+title: "adr: "
+labels: ["adr"]
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What problem are we solving and why now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: decision
+    attributes:
+      label: Proposed decision
+      description: The decision in one to three sentences.
+    validations:
+      required: true
+
+  - type: textarea
+    id: options
+    attributes:
+      label: Alternatives considered
+      description: What options were considered and why not chosen?
+      placeholder: |
+        1) Option A: ...
+        2) Option B: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      description: Tradeoffs, risks, follow-ups.
+    validations:
+      required: true
+
+  - type: textarea
+    id: links
+    attributes:
+      label: Links
+      description: Relevant docs, diagrams, issues, PRs.
+    validations:
+      required: false
