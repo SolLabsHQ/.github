@@ -10,7 +10,7 @@ Roles may outlive incumbents. Updating this file does not change governance stru
 ## Current
 
 - **Founder & Chief Architect**: Jassen McNulty
-- **Chief of Practical Governance**: Andrea McNulty
+- **Chief of Practical Governance**: Andrea Pérez Hernández
 
 ---
 
