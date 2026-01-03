@@ -1,4 +1,4 @@
-# SolLabsHQ
+# <img src="https://github.com/SolLabsHQ/.github/blob/ed7dc3c54871564da323ce3d998716dcb163fcfb/assets/sollabs-hq-logo.jpeg" width="500">
 
 SolLabsHQ is an independent systems lab focused on the design, documentation, and implementation of personal-scale and human-centered computing architectures.
 
